@@ -1,0 +1,17 @@
+// src/routes/health.js — Kiểm tra trạng thái server
+
+const express = require('express');
+const { isRunning } = require('../services/Mcpservice');
+
+const router = express.Router();
+
+// ─── GET /api/health ──────────────────────────────────────────────────────────
+router.get('/', (req, res) => {
+    res.json({
+        status: 'ok',
+        mcp: isRunning() ? 'running' : 'stopped',
+        timestamp: new Date().toISOString(),
+    });
+});
+
+module.exports = router;

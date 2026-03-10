@@ -1,0 +1,249 @@
+{"level":"info","message":"Backend running on http://localhost:3001","service":"mcp-client","timestamp":"2026-03-10T01:30:03.016Z"}
+{"level":"info","message":"Checking dependencies...","service":"mcp-client","timestamp":"2026-03-10T01:30:03.116Z"}
+{"level":"info","message":"Python at:","service":"mcp-client","timestamp":"2026-03-10T01:30:03.116Z"}
+{"level":"info","message":"Server at:","service":"mcp-client","timestamp":"2026-03-10T01:30:03.117Z"}
+{"level":"info","message":"MCP Server initialization started","service":"mcp-client","timestamp":"2026-03-10T01:30:03.120Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:03.601Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:03.601Z"}
+{"id":1,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"capabilities":{"experimental":{},"prompts":{"listChanged":false},"resources":{"listChanged":false,"subscribe":false},"tools":{"listChanged":false}},"protocolVersion":"2024-11-05","serverInfo":{"name":"todo-manager","version":"1.26.0"}},"service":"mcp-client","timestamp":"2026-03-10T01:30:03.623Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T01:30:03.624Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T01:30:03.624Z"}
+{"level":"info","message":"MCP Initialized ✅","service":"mcp-client","timestamp":"2026-03-10T01:30:03.625Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T01:30:24.418Z"}
+{"level":"info","message":"Parsed tool:","service":"mcp-client","timestamp":"2026-03-10T01:30:24.418Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.656Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T01:30:33.657Z"}
+{"bodyMatch":"Xin chào bạn","emailMatch":"tranphuc120203@gmail","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"ABBBBBBBBBBBBBB","timestamp":"2026-03-10T01:30:33.658Z"}
+{"body":"Xin chào bạn","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"ABBBBBBBBBBBBBB","timestamp":"2026-03-10T01:30:33.658Z","to":"tranphuc120203@gmail"}
+{"arguments":{"body":"Xin chào bạn","subject":"ABBBBBBBBBBBBBB","to":"tranphuc120203@gmail"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T01:30:33.659Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"Xin chào bạn","subject":"ABBBBBBBBBBBBBB","to":"tranphuc120203@gmail"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T01:30:33.659Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.663Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.664Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.666Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.666Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.667Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.667Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.668Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:33.668Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:34.953Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:34.954Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:35.463Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:35.463Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.896Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.896Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.897Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.898Z"}
+{"id":2,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail với chủ đề 'ABBBBBBBBBBBBBB'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T01:30:36.899Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.900Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T01:30:36.901Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.674Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T01:30:44.674Z"}
+{"bodyMatch":"Xin chào","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"AAAA","timestamp":"2026-03-10T01:30:44.675Z"}
+{"body":"Xin chào","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"AAAA","timestamp":"2026-03-10T01:30:44.676Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"Xin chào","subject":"AAAA","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T01:30:44.676Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"Xin chào","subject":"AAAA","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T01:30:44.676Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.677Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.678Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.680Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.681Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.681Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:44.681Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:45.244Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:45.245Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:45.818Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:45.818Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.102Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.102Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.103Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.103Z"}
+{"id":3,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'AAAA'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T01:30:47.105Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T01:30:47.105Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T01:30:47.106Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.040Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T01:33:37.041Z"}
+{"bodyMatch":"Xin chào","emailMatch":"ranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"CCCCCC","timestamp":"2026-03-10T01:33:37.041Z"}
+{"body":"Xin chào","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"CCCCCC","timestamp":"2026-03-10T01:33:37.041Z","to":"ranphuc120203@gmail.com"}
+{"arguments":{"body":"Xin chào","subject":"CCCCCC","to":"ranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T01:33:37.041Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"Xin chào","subject":"CCCCCC","to":"ranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T01:33:37.041Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.043Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.043Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.046Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.046Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.046Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:37.046Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:38.159Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:38.159Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:38.774Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:38.775Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.123Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.124Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.124Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.125Z"}
+{"id":4,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến ranphuc120203@gmail.com với chủ đề 'CCCCCC'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T01:33:40.126Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T01:33:40.126Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.126Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.126Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.127Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.127Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.127Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T01:33:40.127Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.993Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T01:34:46.993Z"}
+{"bodyMatch":"của email  Xin chào bạn ","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"chính CCCCCC","timestamp":"2026-03-10T01:34:46.994Z"}
+{"body":"của email  Xin chào bạn","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"chính CCCCCC","timestamp":"2026-03-10T01:34:46.994Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"của email  Xin chào bạn","subject":"chính CCCCCC","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T01:34:46.994Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"của email  Xin chào bạn","subject":"chính CCCCCC","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T01:34:46.994Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.996Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.996Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.998Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.999Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.999Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:46.999Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:48.258Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:48.259Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:48.819Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:48.820Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.103Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.104Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.105Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.105Z"}
+{"id":5,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'chính CCCCCC'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T01:34:50.106Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T01:34:50.106Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.106Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.106Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.106Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.107Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.107Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T01:34:50.107Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T02:09:41.921Z"}
+{"level":"info","message":"Parsed tool:","service":"mcp-client","timestamp":"2026-03-10T02:09:41.921Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.746Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T02:10:06.747Z"}
+{"bodyMatch":"của email  Xin chào bạn ","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"TEST từ","timestamp":"2026-03-10T02:10:06.747Z"}
+{"body":"của email  Xin chào bạn","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"TEST từ","timestamp":"2026-03-10T02:10:06.747Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"của email  Xin chào bạn","subject":"TEST từ","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T02:10:06.747Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"của email  Xin chào bạn","subject":"TEST từ","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T02:10:06.747Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.768Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.768Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.772Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.772Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.772Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.772Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.773Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:06.773Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:08.311Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:08.311Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:08.910Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:08.911Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.704Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.704Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.705Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.705Z"}
+{"id":6,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'TEST từ'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T02:10:10.707Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T02:10:10.707Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.707Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.708Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.708Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.708Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.708Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T02:10:10.708Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.389Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T02:17:22.390Z"}
+{"bodyMatch":"gửi là Xin chào tôi là trợ lý AI","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"TEST từ","timestamp":"2026-03-10T02:17:22.390Z"}
+{"body":"gửi là Xin chào tôi là trợ lý AI","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"TEST từ","timestamp":"2026-03-10T02:17:22.391Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"gửi là Xin chào tôi là trợ lý AI","subject":"TEST từ","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T02:17:22.391Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"gửi là Xin chào tôi là trợ lý AI","subject":"TEST từ","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T02:17:22.391Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.400Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.400Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.403Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.403Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.403Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.404Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.404Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:22.404Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:23.608Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:23.609Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:24.141Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:24.141Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.579Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.580Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.580Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.580Z"}
+{"id":7,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'TEST từ'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T02:17:25.581Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T02:17:25.582Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.584Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.585Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.585Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.585Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.585Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T02:17:25.585Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.762Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T02:48:30.765Z"}
+{"bodyMatch":"Xin chào tôi là trợ lý AI","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"TEST hệ thống gửi mail tự động","timestamp":"2026-03-10T02:48:30.765Z"}
+{"body":"Xin chào tôi là trợ lý AI","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"TEST hệ thống gửi mail tự động","timestamp":"2026-03-10T02:48:30.765Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"Xin chào tôi là trợ lý AI","subject":"TEST hệ thống gửi mail tự động","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T02:48:30.765Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"Xin chào tôi là trợ lý AI","subject":"TEST hệ thống gửi mail tự động","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T02:48:30.765Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.791Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.791Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.798Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.798Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.798Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.798Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.799Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:30.799Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:32.138Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:32.139Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:32.664Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:32.664Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.040Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.041Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.041Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.041Z"}
+{"id":8,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'TEST hệ thống gửi mail tự động'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T02:48:34.044Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T02:48:34.044Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T02:48:34.045Z"}
+{"level":"info","message":"Received message:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.695Z"}
+{"level":"warn","message":"GEMINI_API_KEY not set, using regex only","service":"mcp-client","timestamp":"2026-03-10T02:52:26.695Z"}
+{"bodyMatch":"Xin chào tôi là trợ lý AI của bạn ....sjdf....","emailMatch":"tranphuc120203@gmail.com","level":"info","message":"Regex parse result:","service":"mcp-client","subjectMatch":"TEST hệ thống gửi mail tự động AI","timestamp":"2026-03-10T02:52:26.695Z"}
+{"body":"Xin chào tôi là trợ lý AI của bạn ....sjdf....","level":"info","message":"Parsed email data:","service":"mcp-client","subject":"TEST hệ thống gửi mail tự động AI","timestamp":"2026-03-10T02:52:26.696Z","to":"tranphuc120203@gmail.com"}
+{"arguments":{"body":"Xin chào tôi là trợ lý AI của bạn ....sjdf....","subject":"TEST hệ thống gửi mail tự động AI","to":"tranphuc120203@gmail.com"},"level":"info","message":"Parsed tool:","name":"send_email","service":"mcp-client","timestamp":"2026-03-10T02:52:26.696Z"}
+{"level":"info","message":"Calling sendMCP with:","method":"tools/call","params":{"arguments":{"body":"Xin chào tôi là trợ lý AI của bạn ....sjdf....","subject":"TEST hệ thống gửi mail tự động AI","to":"tranphuc120203@gmail.com"},"name":"send_email"},"service":"mcp-client","timestamp":"2026-03-10T02:52:26.696Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.698Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.698Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.700Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.700Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.700Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.700Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.701Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:26.701Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:28.019Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:28.020Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:28.677Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:28.677Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.111Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.111Z"}
+{"level":"info","message":"MCP stderr raw:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.112Z"}
+{"level":"info","message":"MCP stderr trimmed:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.112Z"}
+{"id":9,"jsonrpc":"2.0","level":"info","message":"MCP raw msg:","result":{"content":[{"text":"✅ Đã gửi email đến tranphuc120203@gmail.com với chủ đề 'TEST hệ thống gửi mail tự động AI'","type":"text"}],"isError":false},"service":"mcp-client","timestamp":"2026-03-10T02:52:30.113Z"}
+{"level":"info","message":"MCP →","service":"mcp-client","timestamp":"2026-03-10T02:52:30.113Z"}
+{"level":"info","message":"MCP response id:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
+{"level":"info","message":"MCP result:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
+{"level":"info","message":"Result type:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
+{"hasContent":true,"isArray":false,"level":"info","message":"Processing result:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
+{"level":"info","message":"Using MCP content format, text:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
+{"level":"info","message":"Final response text:","service":"mcp-client","timestamp":"2026-03-10T02:52:30.114Z"}
